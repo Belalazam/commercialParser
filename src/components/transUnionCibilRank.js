@@ -1,9 +1,8 @@
 import '../App.css';
 
-function TransUnionCibilRank() {
+function TransUnionCibilRank({base}) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', margin:10}}>
-    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+    <div style={{ display: 'flex', justifyContent: 'center', margin:15}}>
     <table cellspacing="0" cellpadding="0" style={{marginLeft:'6.35pt', borderCollapse:'collapse',}}>
         <tbody>
             <tr style={{height:'20.25pt',}}>
