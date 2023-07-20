@@ -52,7 +52,7 @@ function EnquirySummary({base}) {
                     <p style={{marginTop:'7.7pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Your</span><span style={{letterSpacing:'0.4pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Institution</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'7.7pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.7pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.enquirySummarySec.enquiryYourInstitution.noOfEnquiries.month1}</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'7.7pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
@@ -141,5 +141,4 @@ function EnquirySummary({base}) {
 }
 
 export default EnquirySummary;
-
 

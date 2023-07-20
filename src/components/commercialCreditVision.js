@@ -106,47 +106,47 @@ function CommercialCreditVision({base}) {
                 </td>
                 <td style={{width:'54.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>1</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.totalLenders}</span></p>
                 </td>
                 <td style={{width:'53.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>1</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.totalCf.borrower}</span></p>
                 </td>
                 <td style={{width:'70.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.totalCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'39.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>1</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.openCf}</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>-1,11,540</span></p>
+                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.totalOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'73.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.totalOutstanding.guarantor}</span></p>
                 </td>
                 <td style={{width:'67.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 4.2pt 0pt 6.4pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>01-JUN-2021</span></p>
+                    <p style={{margin:'7.2pt 4.2pt 0pt 6.4pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.latestCFOpenedDate}</span></p>
                 </td>
                 <td style={{width:'60.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.delinquentCf.borrower}</span></p>
                 </td>
                 <td style={{width:'72.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.delinquentCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'61.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.delinquentOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'71.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPublicSectorBanks.delinquentOutstanding.guarantor}</span></p>
                 </td>
             </tr>
             <tr style={{height:'47.75pt',}}>
@@ -156,47 +156,47 @@ function CommercialCreditVision({base}) {
                 </td>
                 <td style={{width:'54.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>8</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.totalLenders}</span></p>
                 </td>
                 <td style={{width:'53.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 5.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>11</span></p>
+                    <p style={{margin:'7.2pt 5.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.totalCf.borrower}</span></p>
                 </td>
                 <td style={{width:'70.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.totalCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'39.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>4</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.openCf}</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>6,06,10,341</span></p>
+                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.totalOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'73.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.totalOutstanding.guarantor}</span></p>
                 </td>
                 <td style={{width:'67.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 4.2pt 0pt 6.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>06-APR-2022</span></p>
+                    <p style={{margin:'7.2pt 4.2pt 0pt 6.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.latestCFOpenedDate}</span></p>
                 </td>
                 <td style={{width:'60.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.delinquentCf.borrower}</span></p>
                 </td>
                 <td style={{width:'72.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.delinquentCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'61.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.delinquentOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'71.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.otherPrivateForeignBanks.delinquentOutstanding.guarantor}</span></p>
                 </td>
             </tr>
             <tr style={{height:'47.75pt',}}>
@@ -206,47 +206,47 @@ function CommercialCreditVision({base}) {
                 </td>
                 <td style={{width:'54.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 0.9pt 0pt 3.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>14</span></p>
+                    <p style={{margin:'7.2pt 0.9pt 0pt 3.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.totalLenders}</span></p>
                 </td>
                 <td style={{width:'53.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 5.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>21</span></p>
+                    <p style={{margin:'7.2pt 5.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.totalCf.borrower}</span></p>
                 </td>
                 <td style={{width:'70.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.totalCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'39.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>6</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.openCf}</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>6,67,33,608</span></p>
+                    <p style={{margin:'7.2pt 10.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.totalOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'73.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.totalOutstanding.guarantor}</span></p>
                 </td>
                 <td style={{width:'67.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 4.2pt 0pt 6.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>30-DEC-2022</span></p>
+                    <p style={{margin:'7.2pt 4.2pt 0pt 6.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.latestCfOpenedDate}</span></p>
                 </td>
                 <td style={{width:'60.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.delinquentCf.borrower}</span></p>
                 </td>
                 <td style={{width:'72.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.delinquentCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'61.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.delinquentOutstanding.borrower}</span></p>
                 </td>
                 <td style={{width:'71.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'2.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#305565',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.nbfcOthers.delinquentOutstanding.guarantor}</span></p>
                 </td>
             </tr>
             <tr style={{height:'47.75pt',}}>
@@ -256,51 +256,51 @@ function CommercialCreditVision({base}) {
                 </td>
                 <td style={{width:'54.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 0.9pt 0pt 1.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>23</span></p>
+                    <p style={{margin:'7.2pt 0.9pt 0pt 1.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalLenders}</span></p>
                 </td>
                 <td style={{width:'53.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 7.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>33</span></p>
+                    <p style={{margin:'7.2pt 7.4pt 0pt 7.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalCf.borrower}</span></p>
                 </td>
                 <td style={{width:'70.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'39.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'7.2pt 13.7pt 0pt 13.95pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>11</span></p>
+                    <p style={{margin:'7.2pt 13.7pt 0pt 13.95pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.openCf}</span></p>
                 </td>
                 <td style={{width:'79.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.25pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0.05pt 12.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>12,72,32,409</span></p>
-                    <p style={{margin:'0pt 12.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>(100.00%)</span></p>
+                    <p style={{margin:'0.05pt 12.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalOutstanding.borrower}</span></p>
+                    <p style={{margin:'0pt 12.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>({base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalOutstanding.borrowerPercentage})</span></p>
                 </td>
                 <td style={{width:'73.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.25pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
-                    <p style={{margin:'0pt 15.45pt 0pt 15.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>(0.00%)</span></p>
+                    <p style={{margin:'0.05pt 12.45pt 0pt 12.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalOutstanding.guarantor}</span></p>
+                    <p style={{margin:'0pt 15.45pt 0pt 15.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>({base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.totalOutstanding.guarantorPercentage})</span></p>
                 </td>
                 <td style={{width:'67.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'0.2pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'0.2pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.latestCFOpenedDate}</span></p>
                 </td>
                 <td style={{width:'60.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentCf.borrower}</span></p>
                 </td>
                 <td style={{width:'72.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
+                    <p style={{marginTop:'7.2pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentCf.guarantor}</span></p>
                 </td>
                 <td style={{width:'61.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.25pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
-                    <p style={{margin:'0pt 11.4pt 0pt 11.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>(0.00%)</span></p>
+                    <p style={{marginTop:'0.05pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentOutstanding.borrower}</span></p>
+                    <p style={{margin:'0pt 11.4pt 0pt 11.65pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>({base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentOutstanding.borrowerPercentage})</span></p>
                 </td>
                 <td style={{width:'71.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.25pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
-                    <p style={{margin:'0pt 14.45pt 0pt 14.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>(0.00%)</span></p>
+                    <p style={{marginTop:'0.05pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentOutstanding.guarantor}</span></p>
+                    <p style={{margin:'0pt 14.45pt 0pt 14.7pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>({base.data.report.productSec.creditProfileSummarySec.outsideInstitution.outsideTotal.delinquentOutstanding.guarantorPercentage})</span></p>
                 </td>
             </tr>
             <tr style={{height:'46.75pt',}}>
@@ -310,31 +310,31 @@ function CommercialCreditVision({base}) {
                 </td>
                 <td style={{width:'54.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'6.7pt 0.9pt 0pt 1.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>23</span></p>
+                    <p style={{margin:'6.7pt 0.9pt 0pt 1.15pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.totalLenders}</span></p>
                 </td>
                 <td colspan="2" style={{width:'124.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'6.7pt 8.05pt 0pt 8.3pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>33</span></p>
+                    <p style={{margin:'6.7pt 8.05pt 0pt 8.3pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.totalCf}</span></p>
                 </td>
                 <td style={{width:'39.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'6.7pt 13.7pt 0pt 13.95pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>11</span></p>
+                    <p style={{margin:'6.7pt 13.7pt 0pt 13.95pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.openCf}</span></p>
                 </td>
                 <td colspan="2" style={{width:'153.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'6.7pt', marginLeft:'50.7pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>12,72,32,409</span></p>
+                    <p style={{marginTop:'6.7pt', marginLeft:'50.7pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.totalOutstanding}</span></p>
                 </td>
                 <td style={{width:'67.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'6.7pt', marginLeft:'0.2pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'6.7pt', marginLeft:'0.2pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.latestCfOpenedDate}</span></p>
                 </td>
                 <td colspan="2" style={{width:'133.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'6.7pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
+                    <p style={{marginTop:'6.7pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.delinquentCf}</span></p>
                 </td>
                 <td colspan="2" style={{width:'133.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'6.7pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
+                    <p style={{marginTop:'6.7pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>{base.data.report.productSec.creditProfileSummarySec.total.delinquentOutstanding}</span></p>
                 </td>
             </tr>
         </tbody>

@@ -13694,7 +13694,12 @@
             }
           },
           "rankSec": {
-            "message": "CIBIL MSME Rank available but your institution has not subscribed to CIBIL MSME Rank. For subscription details, kindly contact your institutions nodal officer."
+            "message": null,
+            "rankVec": [{
+              "rankName": "CIBIL MSME Rank",
+              "rankValue": "CMR-3",
+              "exclusionReason": "AGTR2G-Credit relationship is older than one business cycle\nFFTL1R-Low borrowing headroom based on current facilities\nSMAL6G-Moderate number of months in overdue but not NPA"
+            }]
           },
           "creditVisionSec": {
             "message": "Commercial CreditVision (CCV) algorithms available but your institution has not subscribed to it. For subscription details, kindly contact your institutions nodal officer.",

@@ -86,43 +86,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd1To30.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd31To60.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd61To90.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.dpd91To180.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'44.75pt',}}>
@@ -132,43 +132,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd1To30.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd31To60.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd61To90.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.dpd91To180.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'44.75pt',}}>
@@ -178,43 +178,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd1To30.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd31To60.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd61To90.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.dpd91To180.value.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'45pt',}}>
@@ -222,45 +222,45 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                     <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
                     <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Forex</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd0.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd1To30.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd31To60.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd61To90.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.dpd91To180.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.sub.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.dbt.value}</span></p>
                 </td>
-                <td style={{width:'68.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.loss.value}</span></p>
                 </td>
-                <td style={{width:'120.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
+                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'45pt',}}>
@@ -268,45 +268,45 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
                     <p style={{margin:'5.95pt 31.25pt 0pt 31.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Total</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd0.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd1To30.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd31To60.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd61To90.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.dpd91To180.value.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.sub.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.dbt.value}</span></p>
                 </td>
-                <td style={{width:'68.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.loss.value}</span></p>
                 </td>
-                <td style={{width:'120.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'23.75pt',}}>
@@ -321,43 +321,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd1To30.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd31To60.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd61To90.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.dpd91To180.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'44.75pt',}}>
@@ -367,43 +367,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd1To30.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd31To60.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd61To90.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.dpd91To180.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'44.75pt',}}>
@@ -413,43 +413,43 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd0.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd1To30.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd31To60.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd61To90.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.dpd91To180.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.sub.value}</span></p>
                 </td>
                 <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.dbt.value}</span></p>
                 </td>
                 <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.loss.value}</span></p>
                 </td>
                 <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'45pt',}}>
@@ -457,45 +457,45 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                     <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
                     <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Forex</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd0.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd1To30.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd31To60.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd61To90.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.dpd91To180.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.sub.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.dbt.value}</span></p>
                 </td>
-                <td style={{width:'68.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
+                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.loss.value}</span></p>
                 </td>
-                <td style={{width:'120.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
+                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
                     <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.total.value}</span></p>
                 </td>
             </tr>
             <tr style={{height:'45pt',}}>
@@ -503,45 +503,45 @@ function OutstandingBalancesByCreditFacilityGroups({base}) {
                     <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
                     <p style={{margin:'5.95pt 31.25pt 0pt 31.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Total</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd0.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd1To30.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd31To60.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd61To90.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.dpd91To180.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.greaterThan180Dpd.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.sub.value}</span></p>
                 </td>
-                <td style={{width:'69.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.dbt.value}</span></p>
                 </td>
-                <td style={{width:'68.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.loss.value}</span></p>
                 </td>
-                <td style={{width:'120.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'5.8pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>-</span></p>
+                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
+                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
+                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.value}</span></p>
                 </td>
             </tr>
   
