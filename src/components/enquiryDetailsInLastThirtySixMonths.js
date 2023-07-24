@@ -2,9 +2,8 @@ import "../App.css";
 import { ListToStringList } from "../utils.js";
 
 function EnquriyDetailsInLastThirtySixMonths({ base }) {
-  const tbody =
-    base.data.report.productSec.locationDetailsSec.locationInformationVec
-      .locationInformation;
+
+  const enquiryDetailInLast36Months = base.data.report.productSec.enquiryDetailsVec.enquiryDetailsHistory;
   return (
     <div
       style={{
@@ -37,20 +36,20 @@ function EnquriyDetailsInLastThirtySixMonths({ base }) {
           </tr>
         </thead>
         <tbody>
-          {tbody.map((item,index) => {
+          {enquiryDetailInLast36Months.map((item,index) => {
             return (
               <tr key={index}>
                 <td colspan="3">
-                    <p><span>1</span></p>
+                    <p><span>{item.creditLender}</span></p>
                 </td>
                 <td colspan="3">
-                    <p><span>2-3</span></p>
+                    <p><span>{item.enquiryDt}</span></p>
                 </td>
                 <td colspan="3">
-                    <p><span>4-6</span></p>
+                    <p><span>{item.enquiryPurpose}</span></p>
                 </td>
                 <td colspan="3">
-                    <p><span>7-12</span></p>
+                    <p><span>{item.enquiryAmt}</span></p>
                 </td>
               </tr>
             );
