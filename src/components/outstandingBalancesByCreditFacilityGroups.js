@@ -1,559 +1,1418 @@
-import '../App.css';
+import "../App.css";
 
-function OutstandingBalancesByCreditFacilityGroups({base}) {
+function OutstandingBalancesByCreditFacilityGroups({ base }) {
+  const outsideInstitution = base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution
+  const yourInstitution = base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution
   return (
-    <div style={{display:'flex',justifyContent:'center' , margin: 15 }}>
-           <table cellspacing="0" cellpadding="0" style={{marginLeft:'6.35pt', borderCollapse:'collapse',}}>
+    <div style={{ display: "flex", justifyContent: "center", margin: 40 }}>
+      <table cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th colspan="11">
+              <p>
+                7. Outstanding Balances by Credit Facility Groups and Asset Classification
+              </p>
+              <p>
+              # - No. of Credit Facilities; ₹ - Outstanding Balance in ₹
+              </p>
+            </th>
+          </tr>
+        </thead>
         <tbody>
-            <tr style={{height:'35.25pt',}}>
-                <td colspan="11" style={{width:'835pt', verticalAlign:'top', backgroundColor:'#00a5ca',}}>
-                    <p style={{marginTop:'3.2pt', marginLeft:'5.4pt', marginBottom:'0pt', fontSize:'12pt',}}><span style={{color:'#ffffff',}}>7.</span><span style={{letterSpacing:'0.35pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Outstanding</span><span style={{letterSpacing:'0.3pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Balances</span><span style={{letterSpacing:'0.35pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>by</span><span style={{letterSpacing:'0.3pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Credit</span><span style={{letterSpacing:'0.35pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Facility</span><span style={{letterSpacing:'0.3pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Groups</span><span style={{letterSpacing:'0.35pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>and</span><span style={{letterSpacing:'0.3pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Asset</span><span style={{letterSpacing:'0.35pt', color:'#ffffff',}}>&nbsp;</span><span style={{color:'#ffffff',}}>Classification</span></p>
-                    <p style={{marginTop:'3pt', marginBottom:'0pt', textAlign:'right', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>#</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>-</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>No.</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.7pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>of</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>Credit</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.7pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>Facilities;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>₹</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.7pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>-</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.05pt', color:'#ffffff',}}>Outstanding</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.7pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', color:'#ffffff',}}>Balance</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'0.75pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', color:'#ffffff',}}>in</span><span style={{fontFamily:'Trebuchet MS', letterSpacing:'1.7pt', color:'#ffffff',}}>&nbsp;</span><span style={{fontFamily:'Trebuchet MS', color:'#ffffff',}}>₹</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'15.65pt',}}>
-                <td colspan="11" style={{width:'834.25pt', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'2.7pt', marginLeft:'4.45pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>(Depicted</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>as</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>No.</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>of</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Facilities</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>and</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>corresponding</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Outstanding</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Balances</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>under</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>each</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>CF</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Group</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>and</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Asset</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Class.</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>bucket.)</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'29.75pt',}}>
-                <td rowspan="2" style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'18.75pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>CF</span><span style={{letterSpacing:'0.2pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>GROUP</span></p>
-                </td>
-                <td colspan="4" style={{width:'279.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.55pt', marginBottom:'0pt', fontSize:'8pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0pt 129.75pt 0pt 129.95pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>STD</span></p>
-                </td>
-                <td colspan="5" style={{width:'348.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.55pt', marginBottom:'0pt', fontSize:'8pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0pt 150.4pt 0pt 150.6pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>NON</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>-</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>STD</span></p>
-                </td>
-                <td rowspan="2" style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'11.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0.05pt 26.4pt 0pt 26.6pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Total</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'30.8pt',}}>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'21.75pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{margin:'5.05pt 0.7pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>1-30</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>/</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>SMA</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'0.25pt', marginBottom:'0pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>0</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{margin:'5.05pt 0.65pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>31-60</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>/</span></p>
-                    <p style={{margin:'0pt 0.7pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>SMA</span><span style={{letterSpacing:'0.1pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>1</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{margin:'5.05pt 0.65pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>61-90</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>/</span></p>
-                    <p style={{margin:'0pt 0.7pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>SMA</span><span style={{letterSpacing:'0.1pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>2</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'10.25pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>91-180</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'12.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>&gt;</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>180</span><span style={{letterSpacing:'0.15pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>DPD</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0.05pt 0.7pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>SUB</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'0.05pt 0.65pt 0pt 0.9pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>DBT</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cddfe7',}}>
-                    <p style={{marginTop:'0.45pt', marginBottom:'0pt', fontSize:'8.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0.05pt', marginLeft:'22.5pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>LOSS</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'23.75pt',}}>
-                <td colspan="11" style={{width:'834.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'6.7pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Your</span><span style={{letterSpacing:'0.4pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Institution</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Non</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Funded</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd1To30.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd31To60.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.stdVec.dpd61To90.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.dpd91To180.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.nonFunded.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Working</span><span style={{letterSpacing:'0.35pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Capital</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd1To30.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd31To60.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.stdVec.dpd61To90.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.dpd91To180.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.workingCapital.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Term</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Loan</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd1To30.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd31To60.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.stdVec.dpd61To90.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.dpd91To180.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.termLoan.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'45pt',}}>
-                <td style={{width:'84.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Forex</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd1To30.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd31To60.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.stdVec.dpd61To90.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.dpd91To180.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.forex.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'45pt',}}>
-                <td style={{width:'84.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'5.95pt 31.25pt 0pt 31.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Total</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd1To30.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd31To60.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.stdVec.dpd61To90.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.dpd91To180.value.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.yourInstitution.total.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'23.75pt',}}>
-                <td colspan="16" style={{ border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'6.7pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Outside</span></p>
-                </td>
-            </tr>  
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Non</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Funded</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd1To30.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd31To60.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.stdVec.dpd61To90.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.dpd91To180.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.nonFunded.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Working</span><span style={{letterSpacing:'0.35pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Capital</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd1To30.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd31To60.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.stdVec.dpd61To90.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.dpd91To180.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.workingCapital.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'44.75pt',}}>
-                <td style={{width:'84.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Term</span><span style={{letterSpacing:'0.25pt', color:'#00a5ca',}}>&nbsp;</span><span style={{color:'#00a5ca',}}>Loan</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd1To30.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd31To60.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.stdVec.dpd61To90.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.dpd91To180.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.termLoan.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'45pt',}}>
-                <td style={{width:'84.25pt', borderTop:'0.75pt solid #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt double #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.5pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'6.95pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Forex</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd1To30.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd31To60.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd61To90.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.dpd91To180.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.total.value}</span></p>
-                </td>
-            </tr>
-            <tr style={{height:'45pt',}}>
-                <td style={{width:'84.25pt', borderTop:'0.75pt double #00a5ca', borderRight:'0.75pt solid #00a5ca', borderLeft:'0.75pt solid #00a5ca', borderBottom:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0pt', marginBottom:'0pt', fontSize:'10pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{margin:'5.95pt 31.25pt 0pt 31.45pt', textAlign:'center', fontSize:'9pt',}}><span style={{color:'#00a5ca',}}>Total</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd0.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd1To30.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd31To60.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.stdVec.dpd61To90.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.dpd91To180.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.greaterThan180Dpd.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.sub.value}</span></p>
-                </td>
-                <td style={{width:'69.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.dbt.value}</span></p>
-                </td>
-                <td style={{width:'68.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'2pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#305565',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.nonStdVec.loss.value}</span></p>
-                </td>
-                <td style={{width:'120.25pt', border:'0.75pt solid #00a5ca', verticalAlign:'top', backgroundColor:'#cccccc',}}>
-                    <p style={{marginTop:'0.35pt', marginBottom:'0pt', fontSize:'14.5pt',}}><span style={{fontFamily:'Times New Roman',}}>&nbsp;</span></p>
-                    <p style={{marginTop:'0pt', marginLeft:'58.85pt', marginBottom:'0pt', fontSize:'9pt',}}><span style={{fontFamily:'Trebuchet MS', color:'#00a5ca',}}>{base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.total.value}</span></p>
-                </td>
-            </tr>
-  
-
-
-
-
+          <tr>
+            <td colspan="11">
+              <p>
+              (Depicted as No. of Facilities and corresponding Outstanding Balances under each CF Group and Asset Class. bucket.)
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              <p>
+                CF GROUP
+              </p>
+            </td>
+            <td colspan="4">
+              <p>
+                STD
+              </p>
+            </td>
+            <td colspan="5">
+              <p>
+                NON-STD
+              </p>
+            </td>
+            <td rowspan="2">
+              <p>
+                TOTAL
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                0 DPD
+              </p>
+            </td>
+            <td>
+              <p>
+              1-30 DPD / SMA 0
+              </p>
+            </td>
+            <td>
+              <p>
+              31-60 DPD / SMA 1
+              </p>
+            </td>
+            <td>
+              <p>
+              61-90 DPD / SMA 2
+              </p>
+            </td>
+            <td>
+              <p>
+                91-180 DPD
+              </p>
+            </td>
+            <td>
+              <p>
+              &nbsp; 180 DPD
+              </p>
+            </td>
+            <td>
+              <p>
+                SUB
+              </p>
+            </td>
+            <td>
+              <p>
+                DBT
+              </p>
+            </td>
+            <td>
+              <p>
+                LOSS
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="11">
+              <p>
+                Your Institution
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <p>
+              <span>&nbsp;</span>
+              </p>
+              <p>
+                Not Funded
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.stdVec.dpd1To30.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.stdVec.dpd31To60.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.stdVec.dpd61To90.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.nonStdVec.dpd91To180.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.nonFunded.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                  Working Capital
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.stdVec.dpd1To30.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.stdVec.dpd31To60.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.stdVec.dpd61To90.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.nonStdVec.dpd91To180.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.workingCapital.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                  Term Loan
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.stdVec.dpd1To30.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.stdVec.dpd31To60.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.stdVec.dpd61To90.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.nonStdVec.dpd91To180.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.termLoan.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                  Forex
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.stdVec.dpd1To30.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.stdVec.dpd31To60.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.stdVec.dpd61To90.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.nonStdVec.dpd91To180.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.forex.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                Total
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.stdVec.dpd1To30.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.stdVec.dpd31To60.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.stdVec.dpd61To90.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.nonStdVec.dpd91To180.value.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    yourInstitution.total.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="16">
+              <p>
+                Outside
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                  Not Funded
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.stdVec.dpd1To30.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.stdVec.dpd31To60.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.nonFunded.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                Working Capital
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.stdVec.dpd1To30.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.stdVec.dpd31To60.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.nonStdVec.dpd91To180.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.workingCapital.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                  Term Loan
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.stdVec.dpd1To30.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.stdVec.dpd31To60.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.nonStdVec.dpd91To180.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.termLoan.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                Forex
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.stdVec.dpd1To30.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.stdVec.dpd31To60.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.nonStdVec.dpd91To180.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.forex.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                Total
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.stdVec.dpd0.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.stdVec.dpd1To30.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.stdVec.dpd31To60.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.stdVec.dpd61To90.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.nonStdVec.dpd91To180.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.nonStdVec.greaterThan180Dpd.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.nonStdVec.sub.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.nonStdVec.dbt.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.nonStdVec.loss.value
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>&nbsp;</span>
+              </p>
+              <p>
+                <span>
+                  {
+                    outsideInstitution.total.value
+                  }
+                </span>
+              </p>
+            </td>
+          </tr>
         </tbody>
-    </table>
+      </table>
     </div>
   );
 }
 
 export default OutstandingBalancesByCreditFacilityGroups;
-

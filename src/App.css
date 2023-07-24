@@ -21,3 +21,71 @@
     color: black;
     display: inline;
 }
+
+table {
+    margin-left: 6.35pt;
+    border-collapse: collapse;
+    width: 1600px;
+  }
+  
+  td {
+    border: 0.75pt solid #293b75;
+    vertical-align: top;
+  }
+  
+  th {
+    width: 835pt;
+    vertical-align: top;
+    background-color: #293b75;
+  }
+  
+  th p {
+    margin-top: 3.2pt;
+    margin-left: 5.4pt;
+    margin-bottom: 0pt;
+    font-size: 12pt;
+    color: #ffffff;
+  }
+  
+   p {
+    margin-top: 4.7pt;
+    margin-left: 4.45pt;
+    margin-bottom: 0pt;
+    font-size: 12pt;
+    color: #293b75;
+  }
+
+  p span {
+    font-size: 12pt;
+    color: black;
+  }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    font-size: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    border-collapse: collapse;
+    grid-gap: 10px;
+  }
+  
+  .grid-container > div {
+    padding-top: 10px;
+    padding-left : 10px;
+    width: 200px;
+    word-break: break-all;
+  }
+  
+  .grid-container > div:nth-child(odd) {
+    color: #293b75;
+  }
+  
+  .grid-container > div:nth-child(even) {
+    color: black;
+  }
+  
