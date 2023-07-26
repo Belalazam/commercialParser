@@ -25,7 +25,7 @@ function EnquiryInformation({ base }) {
                 Search Criteria:
                 <span>
                   &nbsp;{enquiryInformation.borrowerName}
-                  ,&nbsp;&nbsp;{borrwerDetails.dateOfIncorporation},&nbsp;&nbsp;
+                  ,&nbsp;&nbsp;
                   {enquiryInformation.pan},&nbsp;&nbsp;{address.addressLine}
                 </span>
               </p>

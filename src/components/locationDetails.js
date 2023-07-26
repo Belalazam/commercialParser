@@ -98,40 +98,36 @@ function LocationDetails({ base }) {
         </tbody>
       </table>
       <table>
-        <tbody>
-          <tr>
-            <td colspan="16"></td>
-          </tr>
-          <tr>
-            <td colspan="4">
-              <p>
-                <span>&nbsp;</span>
-              </p>
-              <p>Contact No.</p>
-            </td>
-            <td colspan="2">
-              <p>
-                <span>&nbsp;</span>
-              </p>
-              <p>Fax No.</p>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="4">
-              {ListToStringList(
-                [base.data.report.productSec.locationDetailsSec.contactNumber],
-                "number"
-              )}
-            </td>
-            <td colspan="4">
-              {ListToStringList(
-                [base.data.report.productSec.locationDetailsSec.faxNumber],
-                "number"
-              )}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+  <tbody>
+    <tr>
+      <td colSpan="16"></td>
+    </tr>
+    <tr>
+      <td colSpan="4" style={{ maxHeight: '50px', overflowY: 'auto' }}>
+        <p>
+          <span>&nbsp;</span>
+        </p>
+        <p>Contact No.</p>
+      </td>
+      <td colSpan="2" style={{ maxHeight: '50px', overflowY: 'auto' }}>
+        <p>
+          <span>&nbsp;</span>
+        </p>
+        <p>Fax No.</p>
+      </td>
+    </tr>
+    <tr>
+      <td colSpan="4" style={{ maxHeight: '50px', overflowY: 'auto' }}>
+        {ListToStringList([base.data.report.productSec.locationDetailsSec.contactNumber], "number")}
+      </td>
+      <td colSpan="4" style={{ maxHeight: '50px', overflowY: 'auto' }}>
+        {ListToStringList([base.data.report.productSec.locationDetailsSec.faxNumber], "number")}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
     </div>
   );
 }

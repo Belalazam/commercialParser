@@ -1,6 +1,9 @@
 import '../../App.css';
 
 function CredityFacilityDetails({base}) {
+  const amounts = base.amount
+  const dates = base.dates
+  const otherDetails = base.otherDetails
   return (
     <>
     <div style={{display:'flex',justifyContent:'center' , margin: 15 }}>
@@ -46,10 +49,10 @@ function CredityFacilityDetails({base}) {
                     <p>Not a Suit Filed Case,Settled & Closed,Not Wilful Defaulter</p>
                 </td>
                 <td colSpan={4.5}>
-                    <p>-</p>
+                    <p>{base.statusDate}</p>
                 </td>
                 <td colSpan={4.5}>
-                    <p>30-NOV-2019</p>
+                    <p>{base.lastReportedDate}</p>
                 </td>
             </tr>
             <tr>
@@ -58,25 +61,25 @@ function CredityFacilityDetails({base}) {
                         AMOUNTS (INR)
                   <div className="grid-container">
                   <div>Sanctioned INR:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.sanctionedAmt}</div>
                   <div>Drawing Power:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.drawingPower}</div>
                   <div>Outstanding Balance:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.outstandingBalance}</div>
                   <div>Overdue:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.overdue}</div>
                   <div>High Credit:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.highCredit}</div>
                   <div>Installment Amount:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.installmentAmt}</div>
                   <div>Last Repaid:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.lastRepaid}</div>
                   <div>Suit Filed:</div>
-                  <div>20,11,283</div>
+                  <div>{amounts.suitFiledAmt}</div>
                   <div>Written Off:</div>
-                  <div>-</div>
+                  <div>{amounts.writtenOff}</div>
                   <div>Settled:</div>
-                  <div>-</div>
+                  <div>{amounts.settled}</div>
                 </div>
                     </p>
                 </td>
@@ -85,17 +88,17 @@ function CredityFacilityDetails({base}) {
                     DATES
                     <div className="grid-container">
                   <div>Sanctioned:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.sanctionedDt}</div>
                   <div>Loan Expiry/Maturity:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.loanExpiryDt}</div>
                   <div>Loan Renewal:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.loanRenewalDt}</div>
                   <div>Suit Filed:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.suitFiledDt}</div>
                   <div>Wilful Default:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.wilfulDt}</div>
                   <div>Gurantee Invocation Date:</div>
-                  <div>20,11,283</div>
+                  <div>{dates.guaranteeInvocationDate}</div>
                 </div>
                     </p>
                 </td>
@@ -104,15 +107,15 @@ function CredityFacilityDetails({base}) {
                     OTHER DETAILS
                     <div className="grid-container">
                   <div>Repayment Frequency:</div>
-                  <div>20,11,283</div>
+                  <div>{otherDetails.repaymentFrequency}</div>
                   <div>Tenure:</div>
-                  <div>20,11,283</div>
+                  <div>{otherDetails.tenure}</div>
                   <div>Restructuring Reason:</div>
-                  <div>20,11,283</div>
+                  <div>{otherDetails.restructingReason}</div>
                   <div>Asset Based security coverage:</div>
-                  <div>20,11,283</div>
+                  <div>{otherDetails.assetBasedSecurityCoverage}</div>
                   <div>Gurantee coverage:</div>
-                  <div>20,11,283</div>
+                  <div>{otherDetails.guaranteeCoverage}</div>
                 </div>
                     </p>
                 </td>

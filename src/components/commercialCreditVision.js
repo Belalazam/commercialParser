@@ -1,6 +1,7 @@
 import "../App.css";
 
 function CommercialCreditVision({ base }) {
+  const yourInstitution = base.data.report.productSec.creditProfileSummarySec.yourInstitution;
   const outsideInstitution =
     base.data.report.productSec.creditProfileSummarySec.outsideInstitution;
   const total = base.data.report.productSec.creditProfileSummarySec.total;
@@ -87,8 +88,97 @@ function CommercialCreditVision({ base }) {
             <td>
               <p>Your Institution</p>
             </td>
-            <td colspan="11">
-              <p>No Credit Facility Reported by Your Institution </p>
+            <td>
+              <p>
+                <span>
+                  {yourInstitution.totalLenders}
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {yourInstitution.totalCf.borrower}
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {yourInstitution.totalCf.guarantor}
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>{yourInstitution.openCf}</span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution.totalOutstanding
+                      .borrower
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution.totalOutstanding
+                      .guarantor
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {yourInstitution.latestCFOpenedDate}
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution.delinquentCf
+                      .borrower
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution.delinquentCf
+                      .guarantor
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution.delinquentOutstanding.borrower
+                  }
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                <span>
+                  {
+                    yourInstitution
+                      .delinquentOutstanding.guarantor
+                  }
+                </span>
+              </p>
             </td>
           </tr>
           <tr>

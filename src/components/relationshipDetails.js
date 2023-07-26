@@ -2,36 +2,30 @@ import "../App.css";
 import { ListToStringList } from "../utils.js";
 
 function RelationshipDetails({ base }) {
-  const temp =
-    base.data.report.productSec.locationDetailsSec.locationInformationVec
-      .locationInformation;
-  const enquiryInformation = base.data.report.enquiryInformationRec;
-  const borrowerDetails =
-    base.data.report.productSec.borrowerProfileSec.borrwerDetails;
-  const borrowerIdDetailsVec =
-    base.data.report.productSec.borrowerProfileSec.borrowerIdDetailsVec;
-  const bororwerAddressContactDetails =
-    base.data.report.productSec.borrowerProfileSec.borrwerAddressContactDetails;
+  const relationshipDetails  = base.data.report.productSec.relationshipDetailsVec.relationshipDetails
   return (
     <div style={{ display: "flex", justifyContent: "center", margin: 15 }}>
       <div>
         {
           <table>
-            {temp.map((item, index) => {
+            {relationshipDetails.map((item, index) => {
+              const temp = relationshipDetails[index]
               return (
                 <>
+                {index % 4 === 0 ? (
                   <thead>
                     <tr>
                       <th colspan="12">
                         <p>9. Relationship Details</p>
                       </th>
                     </tr>
-                    <tr>
+                  </thead>
+                ) : null}
+                                      <tr>
                       <td colspan="12">
                         <p>Relationship {index + 1}</p>
                       </td>
                     </tr>
-                  </thead>
                   <tbody>
                     <tr>
                       <td colspan="4">
@@ -39,25 +33,21 @@ function RelationshipDetails({ base }) {
                           RELATIONSHIP DETAILS
                           <div className="grid-container">
                             <div>Name:</div>
-                            <div>{enquiryInformation.borrowerName}</div>
+                            <div>{temp.relationshipInformation.name}</div>
                             <div>Type:</div>
                             <div>
-                              {borrowerDetails.borrowersLegalConstitution}
+                              {temp.relationshipInformation.relatedType}
                             </div>
                             <div>Relationship:</div>
                             <div>
-                              {ListToStringList(
-                                borrowerDetails.classOfActivityVec
-                                  .classOfActivity,
-                                "number"
-                              )}
+                              {temp.relationshipInformation.relationship}
                             </div>
                             <div>Percentage Holding:</div>
-                            <div>{borrowerDetails.businessCategory}</div>
+                            <div>{temp.relationshipInformation.percentageOfControl}</div>
                             <div>Date Of Birth:</div>
-                            <div>{borrowerDetails.businessIndustryType}</div>
+                            <div>{temp.relationshipInformation.dateOfBirth}</div>
                             <div>Gender:</div>
-                            <div>{borrowerDetails.salesFigure}</div>
+                            <div>{temp.relationshipInformation.gender}</div>
                           </div>
                         </p>
                       </td>
@@ -68,26 +58,19 @@ function RelationshipDetails({ base }) {
                             <div className="grid-container">
                               <div>Registered Office Address:</div>
                               <div>
-                                {
-                                  enquiryInformation.addressVec.address[0]
-                                    .addressLine
-                                }{" "}
-                                {
-                                  enquiryInformation.addressVec.address[0]
-                                    .pinCode
-                                }
+                                {temp.borrwerAddressContactDetails.address}
                               </div>
                               <div>Telephone No:</div>
                               <div>
-                                {bororwerAddressContactDetails.telephoneNumber}
+                                {temp.borrwerAddressContactDetails.telephoneNumber}
                               </div>
                               <div>Mobile No:</div>
                               <div>
-                                {bororwerAddressContactDetails.mobileNumber}
+                                {temp.borrwerAddressContactDetails.mobileNumber}
                               </div>
                               <div>Fax No:</div>
                               <div>
-                                {bororwerAddressContactDetails.faxNumber}
+                                {temp.borrwerAddressContactDetails.faxNumber}
                               </div>
                             </div>
                           </div>
@@ -98,13 +81,10 @@ function RelationshipDetails({ base }) {
                           IDENTIFICATION DETAILS
                           <div className="grid-container">
                             <div>PAN:</div>
-                            <div>{enquiryInformation.pan}</div>
+                            <div>-</div>
                             <div>Registration Number:</div>
                             <div>
-                              {ListToStringList(
-                                borrowerIdDetailsVec.borrowerIdDetails,
-                                "registrationNumber"
-                              )}
+                              -
                             </div>
                             <div>CIN:</div>
                             <div></div>

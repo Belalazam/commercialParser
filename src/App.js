@@ -11,9 +11,7 @@ import LocationDetails from "./components/locationDetails";
 import RelationshipDetails from "./components/relationshipDetails";
 import OutstandingBalancesByCreditFacilityGroups from "./components/outstandingBalancesByCreditFacilityGroups";
 import EnquriyDetailsInLastThirtySixMonths from "./components/enquiryDetailsInLastThirtySixMonths";
-import CredityFacilityDetails from "./components/creditFacilityDetailsAsBorrower/creditFacilityDetails";
-import AssetClassification from "./components/creditFacilityDetailsAsBorrower/assetClassification";
-import GurantorDetails from "./components/creditFacilityDetailsAsBorrower/GurantorDetails";
+import CredityFacilityMain from "./components/creditFacilityDetailsAsBorrower/creditFacilityMain";
 
 function App() {
   return (
@@ -28,9 +26,7 @@ function App() {
       <OutstandingBalancesByCreditFacilityGroups base={response} />
       <LocationDetails base={response} />
       <RelationshipDetails base={response} />
-      <CredityFacilityDetails base={response} />
-      <AssetClassification base={response} />
-      <GurantorDetails base={response} />
+      <CredityFacilityMain base={response} />
       <EnquriyDetailsInLastThirtySixMonths base={response} />
     </div>
   );

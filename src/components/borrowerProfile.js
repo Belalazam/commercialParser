@@ -9,6 +9,9 @@ function BorrowerProfile({ base }) {
     base.data.report.productSec.borrowerProfileSec.borrowerIdDetailsVec;
   const bororwerAddressContactDetails =
     base.data.report.productSec.borrowerProfileSec.borrwerAddressContactDetails;
+  const borrowerDelinquencyReportedOnBorrower =
+    base.data.report.productSec.borrowerProfileSec
+      .borrowerDelinquencyReportedOnBorrower;
   return (
     <div
       style={{
@@ -74,6 +77,16 @@ function BorrowerProfile({ base }) {
                     <div>{bororwerAddressContactDetails.faxNumber}</div>
                   </div>
                 </div>
+                <p style={{ marginTop: "25px" }}>
+                  <span>
+                    {" "}
+                    **Additional Addresses and Contact Information of the
+                    Borrower is
+                  </span>
+                </p>
+                <p>
+                  <span>listed in Section no. 8 the Location Details</span>
+                </p>
               </p>
             </td>
             <td>
@@ -90,7 +103,7 @@ function BorrowerProfile({ base }) {
                     )}
                   </div>
                   <div>CIN:</div>
-                  <div></div>
+                  <div>{enquiryInformation.cin}</div>
                   <div>TIN:</div>
                   <div></div>
                   <div>Service Tax No:</div>
@@ -100,6 +113,7 @@ function BorrowerProfile({ base }) {
                   <div>CKYC</div>
                   <div></div>
                   <div>Last Reported Date</div>
+                  <div>{borrowerIdDetailsVec.lastReportedDate}</div>
                 </div>
               </p>
             </td>
@@ -116,23 +130,55 @@ function BorrowerProfile({ base }) {
           <tr>
             <td>
               <p>
-                Yours: Current:<span> Yes </span>Last 24 Months:
-                <span> No </span>
+                Yours Institution: &nbsp;&nbsp;&nbsp; Current:
+                <span>
+                  {" "}
+                  {
+                    borrowerDelinquencyReportedOnBorrower.yourInstitution
+                      .current
+                  }{" "}
+                </span>
+                Last 24 Months:
+                <span>
+                  {" "}
+                  {
+                    borrowerDelinquencyReportedOnBorrower.yourInstitution
+                      .last24Months
+                  }{" "}
+                </span>
               </p>
             </td>
           </tr>
           <tr>
             <td>
               <p>
-                Outside: Current:<span> Yes </span>Last 24 Months:
-                <span> No </span>
+                Outside:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Current:
+                <span>
+                  {" "}
+                  {
+                    borrowerDelinquencyReportedOnBorrower.outsideInstitution
+                      .current
+                  }{" "}
+                </span>
+                Last 24 Months:
+                <span>
+                  {" "}
+                  {
+                    borrowerDelinquencyReportedOnBorrower.outsideInstitution
+                      .last24Months
+                  }{" "}
+                </span>
               </p>
             </td>
           </tr>
           <tr>
             <td>
-              Delinquencies Reported on Related Parties/ Guarantors of the
-              Borrower in Last 24 Months
+              <p>
+                Delinquencies Reported on Related Parties/ Guarantors of the
+                Borrower in Last 24 Months
+              </p>
             </td>
           </tr>
           <tr>
