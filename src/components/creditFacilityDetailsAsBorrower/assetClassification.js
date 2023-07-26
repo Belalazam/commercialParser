@@ -74,7 +74,7 @@ function AssetClassification({base}) {
                   </td>
                 ) : (
                   <td key={amountItem} colSpan={1}>
-                    <p>{month[amountItem]}</p>
+                    <p><span>{month[amountItem]}</span></p>
                   </td>
                 );
               })}

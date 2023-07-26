@@ -2,14 +2,11 @@ import '../../App.css';
 import { ListToStringList } from "../../utils.js";
 
 
-function GurantorDetails({base}) {
-    const enquiryInformation = base.data.report.enquiryInformationRec;
-    const borrowerDetails =
-      base.data.report.productSec.borrowerProfileSec.borrwerDetails;
-    const borrowerIdDetailsVec =
-      base.data.report.productSec.borrowerProfileSec.borrowerIdDetailsVec;
-    const bororwerAddressContactDetails =
-      base.data.report.productSec.borrowerProfileSec.borrwerAddressContactDetails;
+function GurantorDetails({base,index}) {
+  const details = base.guarantorDetails
+  const address = base.guarantorAddressContactDetails
+  const id = (base.guarantorDetailsBorrowerIdDetailsVec.guarantorIdDetails == null) ? {} : base.guarantorDetailsBorrowerIdDetailsVec.guarantorIdDetails[0]
+  console.log(id)
   return (
     <div style={{display:'flex',justifyContent:'center' , margin: 15 }}>
     <table>
@@ -24,7 +21,7 @@ function GurantorDetails({base}) {
             <tr>
                 <td colSpan={3}>
                     <p>
-                        Gurantor 1
+                        Gurantor {index+1}
                     </p>
                 </td>
             </tr>
@@ -33,17 +30,19 @@ function GurantorDetails({base}) {
                   <p>  Gurantor Details</p>
                 <div className="grid-container">
                   <div>Name:</div>
-                  <div>100000</div>
+                  <div>{details.name}</div>
                   <div>Type:</div>
                   <div>
-                  100000
+                  {details.relatedType}
                   </div>
                   <div>Business Category:</div>
-                  <div>100000</div>
+                  <div>{details.businessCategory}</div>
                   <div>Industry Type:</div>
-                  <div>100000</div>
-                  <div>Date Of Incoporation:</div>
-                  <div>100000</div>
+                  <div>{details.businessIndustryType}</div>
+                  <div>Date Of Birth:</div>
+                  <div>{details.dateOfBirth}</div>
+                  <div>Gender:</div>
+                  <div>{details.gender}</div>
                 </div>
                 </td>
                 <td colSpan={1}>
@@ -52,15 +51,14 @@ function GurantorDetails({base}) {
                   <div className="grid-container">
                     <div>Registered Office Address:</div>
                     <div>
-                      {enquiryInformation.addressVec.address[0].addressLine}{" "}
-                      {enquiryInformation.addressVec.address[0].pinCode}
+                      {address.address}
                     </div>
                     <div>Telephone No:</div>
-                    <div>{bororwerAddressContactDetails.telephoneNumber}</div>
+                    <div>{address.telephoneNumber}</div>
                     <div>Mobile No:</div>
-                    <div>{bororwerAddressContactDetails.mobileNumber}</div>
+                    <div>{address.mobileNumber}</div>
                     <div>Fax No:</div>
-                    <div>{bororwerAddressContactDetails.faxNumber}</div>
+                    <div>{address.faxNumber}</div>
                   </div>
                 </div>
                 </td>
@@ -68,25 +66,25 @@ function GurantorDetails({base}) {
                   <p> IDENTIFICATION DETAILS </p>
                     <div className="grid-container">
                   <div>PAN:</div>
-                  <div>{enquiryInformation.pan}</div>
-                  <div>Registration Number:</div>
-                  <div>
-                    {ListToStringList(
-                      borrowerIdDetailsVec.borrowerIdDetails,
-                      "registrationNumber"
-                    )}
-                  </div>
-                  <div>CIN:</div>
-                  <div></div>
-                  <div>TIN:</div>
-                  <div></div>
-                  <div>Service Tax No:</div>
-                  <div></div>
+                  <div>{id?.pan}</div>
+                  <div>DIN:</div>
+                  <div>{id?.din}</div>
+                  <div>Voter's Id:</div>
+                  <div>{id?.voterId}</div>
+                  <div>Passport Number:</div>
+                  <div>{id?.passportNumber}</div>
+                  <div>Driving License No:</div>
+                  <div>{id?.drivingLicenseNumber}</div>
+                  <div>Ration Card No:</div>
+                  <div>{id?.rationCard}</div>
+                  <div>UID</div>
+                  <div>{id?.uid}</div>
                   <div>URN:</div>
-                  <div></div>
-                  <div>CKYC</div>
-                  <div></div>
-                  <div>Last Reported Date</div>
+                  <div>{id?.urn}</div>
+                  <div>CKYC:</div>
+                  <div>{id?.ckyc}</div>
+                  <div>Last Reported Date:</div>
+                  <div>{id?.lastReportedDate}</div>
                 </div>
                 </td>
             </tr>

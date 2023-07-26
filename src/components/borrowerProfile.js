@@ -77,15 +77,15 @@ function BorrowerProfile({ base }) {
                     <div>{bororwerAddressContactDetails.faxNumber}</div>
                   </div>
                 </div>
-                <p style={{ marginTop: "25px" }}>
-                  <span>
+                <p style={{ marginTop: "25px"}}>
+                  <span style={{fontSize: "12px"}}>
                     {" "}
                     **Additional Addresses and Contact Information of the
                     Borrower is
                   </span>
                 </p>
-                <p>
-                  <span>listed in Section no. 8 the Location Details</span>
+                <p >
+                  <span style={{fontSize: "12px"}}>listed in Section no. 8 the Location Details</span>
                 </p>
               </p>
             </td>

@@ -784,7 +784,7 @@
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.total.suitFilled": null,
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.total.wilfulDefault": null,
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.total.writtenOff": null,
-    "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd0.count": "",
+    "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitgurution.forex.stdVec.dpd0.count": "",
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd0.value": "",
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd1To30.count": "",
     "base.data.report.productSec.oustandingBalanceByCFAndAssetClasificationSec.outsideInstitution.forex.stdVec.dpd1To30.value": "",
